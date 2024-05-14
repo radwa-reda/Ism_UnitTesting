@@ -14,6 +14,10 @@
         {
             return velocity == 0 ? true : false;
         }
+        public Boolean IsMoving()
+        {
+            return velocity != 0 ? true : false;
+        }
 
         public void Stop()
         {

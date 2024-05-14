@@ -10,7 +10,7 @@ namespace CarFactoryLibraryTest
     public class CarStoreTests
     {
         [Fact]
-        public void AddCar_AddToyota_ListContainObject()
+        public void AddCar_AddAudi_ListContainObject()
         {
             // Arrange
             CarStore carStore = new CarStore();
